@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Welcome</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     
@@ -38,12 +39,20 @@
                         </li>
 
                         <li>
-                            <a href="login.html">Log In</a>
+                            <a href="login.html">Login</a>
+                        </li>
+
+                        <li>
+                            <form class="search-form" action="">
+                                <input class="search-input" type="search">
+                                <i class="fa fa-search"></i>
+                            </form>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
+    </div>
 
     <div class="header-container">
         <div class="wrapper">
@@ -53,6 +62,25 @@
                 </div>
             </header>
         </div>
+    </div>
+
+    <div class="contact-form-container">
+        <div class="contact-content">
+            <form id="fcf-form-id" class="contact-form" method="post" action="contact-form.php">
+                    <div class="fcf-input-group">
+                        <input name="name" type="text" class="feedback-input" placeholder="Name" required/>
+                    </div>  
+                    <div class="fcf-input-group">
+                        <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
+                    </div>
+                    <div class="fcf-input-group">
+                        <textarea name="text" class="feedback-input" placeholder="Comment" required></textarea>
+                    </div>
+                <div class="fcf-form-group">
+                    <input type="submit" value="SUBMIT"/>
+                </div>
+            </form>
+        </div>    
     </div>
 
     <div class="mapouter">
