@@ -307,10 +307,12 @@ h6 {
 }
 
 p {
+    color: #FFFFFF;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 2%;
 }
 
 
